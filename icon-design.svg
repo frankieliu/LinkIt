@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285f4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a73e8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="linkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8f0fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <circle cx="64" cy="64" r="60" fill="url(#bgGradient)" stroke="#1557b0" stroke-width="2"/>
+
+  <!-- Chain links -->
+  <!-- Left link -->
+  <ellipse cx="45" cy="64" rx="12" ry="20" fill="none" stroke="url(#linkGradient)" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Right link -->
+  <ellipse cx="83" cy="64" rx="12" ry="20" fill="none" stroke="url(#linkGradient)" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Connection highlight -->
+  <circle cx="64" cy="64" r="3" fill="#ffffff" opacity="0.8"/>
+
+  <!-- Subtle shine effect -->
+  <ellipse cx="50" cy="45" rx="8" ry="12" fill="#ffffff" opacity="0.2"/>
+</svg>
